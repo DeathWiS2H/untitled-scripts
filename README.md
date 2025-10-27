@@ -2,6 +2,16 @@
 
 A comprehensive command system and administrative GUI for Roblox with an extensive library of commands, organized categories, and a modern interface.
 
+## 🔗 Loadstring
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DeathWiS2H/untitled-scripts/refs/heads/main/untitled%20admin"))()
+```
+
+## 💬 Discord
+
+Join our Discord server: [https://discord.com/invite/heCUrd6yGJ](https://discord.com/invite/heCUrd6yGJ)
+
 ## 📋 Overview
 
 Untitled Admin is a feature-rich administrative interface for Roblox. It provides an extensive command system with a bunch of commands organized by category, a complete player management system, credit economy, and a professional GUI with full mobile support.
@@ -10,7 +20,7 @@ Untitled Admin is a feature-rich administrative interface for Roblox. It provide
 
 ### 🎮 Core Features
 - **Extensive Command Library** - A bunch of commands organized into 9 categories
-- **Category System** - Commands organized into Admin, Credits, Settings, Info, Movement, PVP, Effects, Social, and Fun
+- **Category System** - Commands organized into Admin, Credits, Settings, Info, Movement, PVP, Motions, Social, and Fun
 - **Modern GUI** - Clean, professional dark-themed interface with smooth animations
 - **Mobile Support** - Full touch compatibility including window resizing
 - **Tutorial System** - 14 comprehensive tutorial sections built into the GUI
@@ -49,13 +59,6 @@ Untitled Admin is a feature-rich administrative interface for Roblox. It provide
 - Search and filter across all tabs
 - Category-based organization
 - Player selector keywords (me, random, nearest, furthest)
-
-## 🚀 Installation
-
-1. Download the latest release from the [Releases](../../releases) page
-2. Use a Roblox script executor that supports the script
-3. Execute the script in your game testing environment
-4. The GUI will appear with the Tutorial tab open by default
 
 ## 📖 Quick Start
 
@@ -104,10 +107,10 @@ Command documentation and alias management
 Teleportation, jumping, and gravity control
 
 ### PVP
-Combat-related
+Combat-related commands for testing interactions
 
 ### Motions
-Movements, special states
+Visual effects, animations, and special states
 
 ### Social
 Communication and interaction commands
@@ -173,94 +176,3 @@ Create custom shortcuts for long commands:
 - **Player Selectors** - Use `me`, `random`, `nearest`, `furthest` for dynamic targeting
 - **Command Bar** - Type commands in chat or use the GUI command bar
 - **Search Everything** - Every tab has search functionality
-
-## 📜 Command List
-
-### Admin Commands
-- admin
-- unadmin
-- adminlist
-
-### Credit Commands
-- balance
-- addcredits
-- removecredits
-- setcmdcost
-
-### Settings Commands
-- prefix
-- chat
-- disablecmd
-- enablecmd
-- listdisabledcmds
-- status
-- end
-- fix
-
-### Info Commands
-- cmds
-- help
-- usage
-- description
-- aliases
-- setalias
-- unsetalias
-
-### Movement Commands
-- goto
-- reset
-- jump
-- gravity
-
-### PVP Commands
-- fling
-- unfling
-- nuke
-- explode
-- walkfling
-- unwalkfling
-- freeze
-- unfreeze
-- push
-- unpush
-- rocket
-- unrocket
-- firework
-
-### Motion Commands
-- tower
-- untower
-- orbit
-- orbit2
-- unorbit
-- bridge
-- unbridge
-- elevator
-- unelevator
-- sword
-- unsword
-- ragdoll
-- unragdoll
-- fakeout
-
-### Social Commands
-- say
-- copychat
-- uncopychat
-- copyanim
-- uncopyanim
-- stareat
-- unstareat
-- haunt
-- haunt2
-- unhaunt
-
-### Fun Commands
-- dance
-- dance1
-- dance2
-- dance3
-- dance4
-- sit
-- unsit
-- undance
