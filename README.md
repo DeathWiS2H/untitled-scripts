@@ -20,7 +20,7 @@ Untitled Admin is a feature-rich administrative interface for Roblox. It provide
 
 ### 🎮 Core Features
 - **Extensive Command Library** - A bunch of commands organized into 9 categories
-- **Category System** - Commands organized into Admin, Credits, Settings, Info, Movement, PVP, Motions, Social, and Fun
+- **Category System** - Commands organized into Admin, Credits, Settings, Info, Movement, PVP, Effects, Social, and Fun
 - **Modern GUI** - Clean, professional dark-themed interface with smooth animations
 - **Mobile Support** - Full touch compatibility including window resizing
 - **Tutorial System** - 14 comprehensive tutorial sections built into the GUI
